@@ -2,33 +2,72 @@
 
 ## Hva har jeg laget?
 
-Jeg har laget en nettside om gaming. Jeg valgte gaming fordi det er en hobby og interesse som jeg synes er interessant.
+Jeg har laget en nettside om gaming. Jeg valgte dette temaet fordi gaming er en interesse jeg har.
 
-På nettsiden forklarer jeg litt om hva gaming er. Jeg har også lagt til et bilde, en link og noen knapper som gjør nettsiden mer interaktiv.
+Nettsiden inneholder informasjon om gaming, forskjellige typer spill og en liten quiz. Jeg har også lagt til flere interaktive funksjoner med JavaScript.
 
-## Hvordan har jeg brukt JavaScript?
+## HTML
 
-Jeg har brukt JavaScript til å gjøre mer enn bare å vise innhold.
+Jeg brukte HTML til å lage strukturen på nettsiden.
 
-Jeg har laget en enkel teller. Pluss-knappen legger til 1, minus-knappen trekker fra 1 og nullstill setter telleren tilbake til 0.
+Jeg har blant annet brukt:
 
-Jeg har også laget en knapp som endrer teksten på nettsiden.
+- Overskrifter
+- Avsnitt
+- Bilder
+- Link
+- Knapper
+- Input-felt
+- Seksjoner
+- Navigasjon
+- Footer
 
-Jeg har brukt en variabel til å lagre tallet i telleren og funksjoner til knappene.
+## CSS
 
-Jeg har også brukt console.log() for å sjekke at JavaScript-filen fungerer.
+Jeg brukte CSS til å lage designet på nettsiden.
+
+Jeg har blant annet brukt:
+
+- Bakgrunnsfarger
+- Tekstfarger
+- Padding og margin
+- Grid
+- Hover-effekter
+- Sticky navigasjon
+- Media query for mobil
+- Bakgrunnsbilde
+
+## JavaScript
+
+Jeg brukte JavaScript for å gjøre nettsiden interaktiv.
+
+Jeg har laget en teller hvor brukeren kan legge til, trekke fra og nullstille tallet.
+
+Jeg har også laget en knapp som viser og skjuler ekstra informasjon.
+
+På siden har jeg en enkel quiz. JavaScript sjekker svaret og gir poeng hvis svaret er riktig.
+
+Jeg har også laget en søkefunksjon som viser spilltypene som passer med det brukeren skriver.
+
+I tillegg har jeg laget en knapp som bytter mellom mørkt og lyst tema.
+
+Jeg har brukt variabler, funksjoner, if-setninger, løkker og `console.log()` i JavaScript.
 
 ## Hva har jeg lært?
 
 Jeg har lært mer om hvordan HTML, CSS og JavaScript fungerer sammen.
 
-Jeg har lært å lage variabler og funksjoner i JavaScript. Jeg har også lært hvordan JavaScript kan brukes til å endre innhold på en nettside når brukeren trykker på en knapp.
+Jeg har lært hvordan variabler og funksjoner fungerer i JavaScript. Jeg har også lært hvordan man kan bruke JavaScript til å hente elementer fra HTML og endre innholdet på siden.
 
-Jeg har også lært mer om hvordan HTML brukes til å lage innhold og CSS brukes til å bestemme hvordan nettsiden ser ut.
+Jeg har lært mer om if-setninger og hvordan de kan brukes til å sjekke hva brukeren gjør.
+
+Jeg har også lært hvordan en løkke kan brukes til å gå gjennom flere elementer på en nettside.
+
+I CSS har jeg lært mer om hvordan man kan bruke grid og media queries for å lage en nettside som fungerer bedre på forskjellige skjermstørrelser.
 
 ## Filer
 
-- index.html – innholdet på nettsiden
-- style.css – designet på nettsiden
-- script.js – JavaScript og de interaktive funksjonene
-- README.md – dokumentasjon av prosjektet
+- `index.html` – innhold og struktur
+- `style.css` – design og utseende
+- `script.js` – JavaScript og interaktive funksjoner
+- `README.md` – dokumentasjon av prosjektet

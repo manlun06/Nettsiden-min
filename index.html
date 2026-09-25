@@ -3,77 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gaming - Mer enn bare et spill</title>
+    <title>Gaming – Mer enn bare et spill</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
-        <h1>Gaming – Mer enn bare et spill</h1>
-        <p>En nettside om en hobby jeg synes er interessant</p>
+        <nav>
+            <h2>Gaming</h2>
+
+            <div class="meny">
+                <a href="#hjem">Hjem</a>
+                <a href="#om">Om gaming</a>
+                <a href="#spill">Spill</a>
+                <a href="#quiz">Quiz</a>
+            </div>
+
+            <button onclick="byttTema()">Bytt tema</button>
+        </nav>
     </header>
 
     <main>
 
-        <section>
+        <section class="hero" id="hjem">
+            <div>
+                <h1>Gaming – Mer enn bare et spill</h1>
+
+                <p>
+                    Gaming er en hobby som mange bruker tid på.
+                    Man kan spille alene, med venner eller møte nye personer.
+                </p>
+
+                <a class="stor-knapp" href="#om">Les mer</a>
+            </div>
+        </section>
+
+        <section id="om">
             <h2>Hva er gaming?</h2>
 
             <p>
-                Gaming er å spille digitale spill på for eksempel PC,
-                konsoll eller mobil. Det finnes mange forskjellige typer
-                spill, så det er noe for mange forskjellige mennesker.
+                Gaming betyr å spille digitale spill på for eksempel PC,
+                PlayStation, Xbox eller mobil. Det finnes mange forskjellige
+                typer spill, og alle har forskjellige måter å spille på.
             </p>
 
             <p>
-                Jeg synes gaming er interessant fordi man kan spille alene,
-                sammen med venner eller møte andre mennesker på nettet.
+                Gaming kan være underholdning, men det kan også handle om
+                samarbeid, problemløsing og kommunikasjon.
             </p>
 
-            <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1000&q=80"
+            <img class="hovedbilde"
+                src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80"
                 alt="Gaming på PC">
 
+            <button onclick="visMer()">Vis mer</button>
+
+            <p id="ekstraTekst" class="skjult">
+                Når man spiller med andre må man ofte samarbeide.
+                Noen spill krever også at man tenker raskt og finner
+                løsninger på problemer.
+            </p>
+
             <p>
-                Vil du lese mer om gaming?
                 <a href="https://no.wikipedia.org/wiki/Videospill" target="_blank">
-                    Les mer om videospill på Wikipedia
+                    Les mer om videospill
                 </a>
             </p>
         </section>
 
-        <section>
-            <h2>Gaming kan være mer enn underholdning</h2>
+        <section id="spill">
+            <h2>Forskjellige typer spill</h2>
 
-            <p id="gamingTekst">
-                Gaming handler ikke bare om å vinne. Man kan også lære,
-                samarbeide og bli bedre på å løse problemer.
-            </p>
+            <input
+                type="text"
+                id="sok"
+                placeholder="Søk etter en spilltype..."
+                onkeyup="sokSpill()"
+            >
 
-            <button onclick="endreTekst()">Les mer</button>
+            <div class="kort-container">
+
+                <div class="kort">
+                    <h3>Action</h3>
+                    <p>Spill med mye fart og forskjellige utfordringer.</p>
+                </div>
+
+                <div class="kort">
+                    <h3>Sport</h3>
+                    <p>Spill som handler om sport og konkurranser.</p>
+                </div>
+
+                <div class="kort">
+                    <h3>Strategi</h3>
+                    <p>Spill hvor man må planlegge og tenke fremover.</p>
+                </div>
+
+                <div class="kort">
+                    <h3>Eventyr</h3>
+                    <p>Spill hvor man utforsker verdener og historier.</p>
+                </div>
+
+            </div>
         </section>
 
         <section>
-            <h2>En enkel gamingteller</h2>
+            <h2>Min gamingteller</h2>
 
             <p>
-                Trykk på knappene for å telle hvor mange spill du spiller.
+                Bruk knappene for å telle antall spill.
             </p>
 
-            <p id="teller">0</p>
+            <div id="teller">0</div>
 
-            <button onclick="trekkFra()">-</button>
+            <button onclick="trekkFra()">−</button>
             <button onclick="leggTil()">+</button>
             <button onclick="nullstill()">Nullstill</button>
+        </section>
+
+        <section id="quiz">
+            <h2>Gaming-quiz</h2>
+
+            <p>Hvilket av disse er en spillplattform?</p>
+
+            <button onclick="svar('PC')">PC</button>
+            <button onclick="svar('Pizza')">Pizza</button>
+            <button onclick="svar('Bok')">Bok</button>
+
+            <p id="resultat"></p>
+            <p id="poeng">Poeng: 0</p>
         </section>
 
     </main>
 
     <footer>
-        <p>Laget av Magnus – 2026</p>
+        <p>Gaming – Mer enn bare et spill | Magnus 2026</p>
     </footer>
 
     <script src="script.js"></script>
 
 </body>
 </html>
-
