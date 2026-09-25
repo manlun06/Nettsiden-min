@@ -2,50 +2,33 @@
 
 ## Hva har jeg laget?
 
-Jeg har laget en nettside om gaming. Jeg valgte dette temaet fordi gaming er en interesse jeg har, og fordi det er et tema jeg synes er lett å skrive om.
+Jeg har laget en nettside om gaming. Jeg valgte gaming fordi det er en hobby og interesse som jeg synes er interessant.
 
-På nettsiden forklarer jeg litt om hva gaming er og hva gaming kan brukes til. Jeg har også laget noen funksjoner som gjør at brukeren kan gjøre ting på nettsiden.
+På nettsiden forklarer jeg litt om hva gaming er. Jeg har også lagt til et bilde, en link og noen knapper som gjør nettsiden mer interaktiv.
 
-## HTML
+## Hvordan har jeg brukt JavaScript?
 
-Jeg brukte HTML til å lage strukturen på nettsiden.
+Jeg har brukt JavaScript til å gjøre mer enn bare å vise innhold.
 
-Jeg har blant annet brukt:
+Jeg har laget en enkel teller. Pluss-knappen legger til 1, minus-knappen trekker fra 1 og nullstill setter telleren tilbake til 0.
 
-- Overskrifter
-- Avsnitt
-- Bilde
-- Knapper
-- Seksjoner
-- Footer
+Jeg har også laget en knapp som endrer teksten på nettsiden.
 
-## CSS
+Jeg har brukt en variabel til å lagre tallet i telleren og funksjoner til knappene.
 
-Jeg brukte CSS til å bestemme hvordan nettsiden skulle se ut.
-
-Jeg har blant annet endret:
-
-- Bakgrunnsfarge
-- Tekstfarge
-- Størrelse på tekst
-- Avstand mellom elementer
-- Knappene
-- Bildet
-
-## JavaScript
-
-Jeg brukte JavaScript for å gjøre nettsiden interaktiv.
-
-Jeg laget en knapp som endrer teksten på siden når man trykker på den.
-
-Jeg laget også en teller. Pluss-knappen øker tallet, minus-knappen reduserer tallet og nullstill setter tallet tilbake til 0.
-
-Jeg brukte også `console.log()` for å sjekke at JavaScript-filen blir kjørt.
+Jeg har også brukt console.log() for å sjekke at JavaScript-filen fungerer.
 
 ## Hva har jeg lært?
 
 Jeg har lært mer om hvordan HTML, CSS og JavaScript fungerer sammen.
 
-Jeg har lært hvordan man kan bruke variabler og funksjoner i JavaScript. Jeg har også lært hvordan en knapp kan gjøre en endring på nettsiden.
+Jeg har lært å lage variabler og funksjoner i JavaScript. Jeg har også lært hvordan JavaScript kan brukes til å endre innhold på en nettside når brukeren trykker på en knapp.
 
-Det jeg synes var mest interessant var å se at JavaScript faktisk kan gjøre nettsiden interaktiv og ikke bare vise tekst og bilder.
+Jeg har også lært mer om hvordan HTML brukes til å lage innhold og CSS brukes til å bestemme hvordan nettsiden ser ut.
+
+## Filer
+
+- index.html – innholdet på nettsiden
+- style.css – designet på nettsiden
+- script.js – JavaScript og de interaktive funksjonene
+- README.md – dokumentasjon av prosjektet
