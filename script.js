@@ -61,4 +61,6 @@ function byttTema() {
     document.body.classList.toggle("lyst");
 }
 
-console.log("Gaming-nettsiden fungerer!");
+function mobilMeny() {
+    document.getElementById("mobilMeny").classList.toggle("vis");
+}
