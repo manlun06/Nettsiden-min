@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Gaming – Mer enn bare et spill</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -24,8 +26,10 @@
         </nav>
     </header>
 
+
     <main>
 
+        <!-- HJEM -->
         <section class="hero" id="hjem">
             <div>
                 <h1>Gaming – Mer enn bare et spill</h1>
@@ -39,7 +43,10 @@
             </div>
         </section>
 
+
+        <!-- OM GAMING -->
         <section id="om">
+
             <h2>Hva er gaming?</h2>
 
             <p>
@@ -53,9 +60,11 @@
                 samarbeid, problemløsing og kommunikasjon.
             </p>
 
-            <img class="hovedbilde"
+            <img
+                class="hovedbilde"
                 src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80"
-                alt="Gaming på PC">
+                alt="Gaming på PC"
+            >
 
             <button onclick="visMer()">Vis mer</button>
 
@@ -66,13 +75,20 @@
             </p>
 
             <p>
-                <a href="https://no.wikipedia.org/wiki/Videospill" target="_blank">
+                <a
+                    href="https://no.wikipedia.org/wiki/Videospill"
+                    target="_blank"
+                >
                     Les mer om videospill
                 </a>
             </p>
+
         </section>
 
+
+        <!-- SPILL -->
         <section id="spill">
+
             <h2>Forskjellige typer spill</h2>
 
             <input
@@ -86,60 +102,98 @@
 
                 <div class="kort">
                     <h3>Action</h3>
-                    <p>Spill med mye fart og forskjellige utfordringer.</p>
+                    <p>
+                        Spill med mye fart og forskjellige utfordringer.
+                    </p>
                 </div>
 
                 <div class="kort">
                     <h3>Sport</h3>
-                    <p>Spill som handler om sport og konkurranser.</p>
+                    <p>
+                        Spill som handler om sport og konkurranser.
+                    </p>
                 </div>
 
                 <div class="kort">
                     <h3>Strategi</h3>
-                    <p>Spill hvor man må planlegge og tenke fremover.</p>
+                    <p>
+                        Spill hvor man må planlegge og tenke fremover.
+                    </p>
                 </div>
 
                 <div class="kort">
                     <h3>Eventyr</h3>
-                    <p>Spill hvor man utforsker verdener og historier.</p>
+                    <p>
+                        Spill hvor man utforsker verdener og historier.
+                    </p>
                 </div>
 
             </div>
+
         </section>
 
-        <section>
+
+        <!-- GAMINGTELLER -->
+        <section id="teller-section">
+
             <h2>Min gamingteller</h2>
 
             <p>
                 Bruk knappene for å telle antall spill.
             </p>
 
-            <div id="teller">0</div>
+            <h3 id="teller">0</h3>
 
             <button onclick="trekkFra()">−</button>
+
             <button onclick="leggTil()">+</button>
+
             <button onclick="nullstill()">Nullstill</button>
+
         </section>
 
+
+        <!-- QUIZ -->
         <section id="quiz">
+
             <h2>Gaming-quiz</h2>
 
-            <p>Hvilket av disse er en spillplattform?</p>
+            <p>
+                Hvilket av disse er en spillplattform?
+            </p>
 
-            <button onclick="svar('PC')">PC</button>
-            <button onclick="svar('Pizza')">Pizza</button>
-            <button onclick="svar('Bok')">Bok</button>
+            <button onclick="svar('PC')">
+                PC
+            </button>
+
+            <button onclick="svar('Pizza')">
+                Pizza
+            </button>
+
+            <button onclick="svar('Bok')">
+                Bok
+            </button>
 
             <p id="resultat"></p>
-            <p id="poeng">Poeng: 0</p>
+
+            <p id="poeng">
+                Poeng: 0
+            </p>
+
         </section>
 
     </main>
 
+
+    <!-- FOOTER -->
     <footer>
-        <p>Gaming – Mer enn bare et spill | Magnus 2026</p>
+        <p>
+            Gaming – Mer enn bare et spill | Magnus 2026
+        </p>
     </footer>
 
+
+    <!-- JAVASCRIPT -->
     <script src="script.js"></script>
 
 </body>
